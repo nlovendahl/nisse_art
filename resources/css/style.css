@@ -1,10 +1,10 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'Monoton';
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
-  src: local('Monoton'), local('Monoton-Regular'), url(https://fonts.gstatic.com/s/monoton/v7/au96iQ3WM1J9H5fMga5i0QLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v9/X1g_KwGeBV3ajZIXQ9VnDgYWpCd0FFfjqwFBDnEN0bM.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
 
@@ -85,7 +85,7 @@ h5 {
 }
 
 .jumbotron h1 {
-  font-family: 'Monoton';
+  font-family: 'Abril Fatface';
   font-size: 7.1rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -100,20 +100,20 @@ h5 {
   padding: 11.85rem 0;
 }
 
-.jumbotron-bike {
-  background-image: url("../images/jumbotron-bike.jpg");
+.jumbotron-cant {
+  background-image: url("../images/CantHelpIt_Print_NisseLovendahl.jpg");
 }
 
-.jumbotron-beer {
-  background-image: url("../images/jumbotron-beer.jpg");
+.jumbotron-shape {
+  background-image: url("../images/LostMyShape_Print_NisseLovendahl.jpg");
 }
 
-.jumbotron-flowers {
-  background-image: url("../images/jumbotron-flowers.jpg");
+.jumbotron-spaceman {
+  background-image: url("../images/Spaceman_Print_NisseLovendahl.jpg");
 }
 
-.jumbotron-duffel {
-  background-image: url("../images/jumbotron-duffel.jpg");
+.jumbotron-monster {
+  background-image: url("../images/Monster_Print_NisseLovendahl.jpg");
 }
 
 /* Button Overrides */
@@ -123,19 +123,23 @@ h5 {
   margin: 0 auto; /* Centers button on page */
   font-size: 1.1rem;
   width: 11.4rem;
-  background-color: #399bd1;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  color: (0, 0, 0, 0.5);
+  background-color: rgba(255, 245, 238, 1);
+  border: none;
   padding: 1.3rem 0;
   position: relative;
-  top: -10rem;
+  top: -15rem;
 }
 
+
 .btn-primary:hover {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 245, 238, 0.5);
+  box-shadow: 0 0 12px rgba(255, 245, 238, 1);
 }
 
 .btn-primary:active {
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 245, 238, 0.5);
+  box-shadow: 0 0 0 rgba(255, 245, 238, 0.5);
 }
 
 /* Images */
